@@ -2,9 +2,9 @@
  const form = document.querySelector('form');
   const nameInput = document.getElementById('name');
   const ageInput = document.getElementById('age');
-  const btn = document.getElementById('btn');
+  const sbtn = document.getElementById('btn');
   
-  btn.addEventListener('click', (event) => {
+  sbtn.addEventListener('click', (event) => {
     event.preventDefault(); // Prevent the form from submitting normally
     
     if (nameInput.value.trim() === '' || ageInput.value.trim() === '') {
